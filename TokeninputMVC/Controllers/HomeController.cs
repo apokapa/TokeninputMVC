@@ -31,6 +31,9 @@ namespace TokeninputMVC.Controllers
             areas.Add(new Area { id = 2, name = "Athens North" });
             areas.Add(new Area { id = 3, name = "Athens South" });
             areas.Add(new Area { id = 4, name = "Athens Abelokipoi" });
+            areas.Add(new Area { id = 5, name = "Thessaloniki" });
+            areas.Add(new Area { id = 6, name = "Thessaloniki Center" });
+            areas.Add(new Area { id = 7, name = "Thessaloniki Suburbs" });
             var results = new List<Area>();
             results.AddRange(areas.Where(m => m.name.ToLower().Contains(q.ToLower())));
             //Fake implementation End
@@ -51,6 +54,9 @@ namespace TokeninputMVC.Controllers
             areas.Add(new Area { id = 2, name = "Athens North" });
             areas.Add(new Area { id = 3, name = "Athens South" });
             areas.Add(new Area { id = 4, name = "Athens Abelokipoi" });
+            areas.Add(new Area { id = 5, name = "Thessaloniki" });
+            areas.Add(new Area { id = 6, name = "Thessaloniki Center" });
+            areas.Add(new Area { id = 7, name = "Thessaloniki Suburbs" });
 
             string[] selectedArr = selected.Split(',');
             var searchTokens = new List<Area>();
